@@ -1,0 +1,96 @@
+<!--
+*****ToDo list******
+
+1. Homepage that gives an overview of entire project including:
+  - Title
+  - Name
+  - Site Description
+  - Affiliation
+  - Project information with table of contents listing four milestones. Create
+    a link on each milestone name linking to the milestone page in the future
+    once your milestone page is ready.
+
+
+
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title> Web Design Page </title>
+  <style>
+  div.container{
+    width: auto;
+    border: 1px solid black;
+  }
+
+  nav{
+    float:left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+  }
+
+  article{
+    float:right;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+  }
+
+  header{
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+  }
+
+  a:visited{
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  article{
+    float:center;
+    margin-left: 170px;
+    border-left: 1px solid black;
+    padding: 1em;
+    overflow: hidden;
+  }
+
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <h1>Michael Self's</h1>
+    <h3>Adv. Web Design Home Page</h3>
+  </header>
+
+  <nav>
+
+  <a href="Milestone_one.html">Milestone 1</a><br>
+  <a href="Milestone_two.html">Milestone 2</a><br>
+  <a href="Milestone_three.html">Milestone 3</a><br>
+  <a href="Milestone_four.html">Milestone 4</a>
+  </nav>
+
+  <aside>
+    <article>
+      <h1>Current Info</h1>
+      <p>Milestone one is currently being completed. Will update once it is done.</p>
+    </article>
+  </aside>
+
+  <article>
+    <h1>Milestone 1</h1>
+    <p>This Milestone is complete.</p>
+  </article>
+  <footer></footer>
+
+</div>
+</body>
+</html>
